@@ -1,0 +1,25 @@
+.header{
+    background-color: rgb(28, 26, 46);
+    line-height: 26px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar{
+    margin-left: 150px;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.navbars{
+    margin-right: 150px;
+}
+.navbars a{
+    text-decoration: none;
+    color: white;
+    margin-right: 50px;
+    font-size: 19px
+}
