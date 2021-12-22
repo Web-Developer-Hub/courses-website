@@ -1,21 +1,26 @@
-.first-postion{
+.about{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 50px;
+    background-color: rgb(247, 247, 247);
+    padding: 20px;
+    height: 600px;
+    margin-bottom: 50px;
 }
-.first-left h2{
+.about-details h2{
     margin-bottom: 30px;
     font-size: 40px;
     color: rgb(0, 168, 146);
 }
-.first-left p{
+.about-details{
+    margin-left: 20px;
+}
+.about-details p{
     line-height: 30px;
-    color: rgb(114, 114, 114);
     font-size: 18px;
 }
-.first-right img{
+.about_image img{
     width: 550px;
-    margin-left: 100px;
+    border-radius: 10px;
 }
-

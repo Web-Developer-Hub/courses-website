@@ -8,6 +8,8 @@ import Courses from './Components/Courses/Courses';
 import NotFound from './Components/NotFound/NotFound';
 import Contact from './Components/Contact/Contact';
 import About from './Components/About/About';
+import Footer from './Components/Footer/Footer';
+import BestSeller from './Components/BestSeller/BestSeller';
 
 
 function App() {
@@ -30,7 +32,11 @@ function App() {
             <Courses></Courses>
           </Route>
 
-          <Route exact path='/contact/todos'>
+          <Route exact path='/our/courses/bestseller'>
+            <BestSeller></BestSeller>
+          </Route>
+
+          <Route exact path='/contact/us'>
             <Contact></Contact>
           </Route>
 
@@ -41,8 +47,8 @@ function App() {
           <Route exact path='*'>
             <NotFound></NotFound>
           </Route>
-
         </Switch>
+        <Footer></Footer>
       </Router>
     </div>
   );
